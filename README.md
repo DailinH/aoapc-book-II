@@ -1,7 +1,7 @@
 # 《算法竞赛入门经典(第二版)》 学习进度记录
 > 所有上传代码均使用Visual Studio 2017编译成功
-## 第6章 数据结构基础：[https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=837][1]
-- 例题6-1(UVA 210)
+### [第6章 数据结构基础][1]
+- 例题6-1([UVA 210][5])
  
 
 
@@ -14,3 +14,4 @@
 [3]: https://img.shields.io/badge/WA-%C3%97-red.svg
 <!-- TLE -->
 [4]: https://img.shields.io/badge/TLE----yellow.svg
+[5]: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=838&page=show_problem&problem=146
