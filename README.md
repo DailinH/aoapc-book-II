@@ -2,15 +2,27 @@
 > 所有上传代码均使用Visual Studio 2017编译成功  
 > ~~由于uvaoj等待时间过长，故改用vjudge.net做题~~  
 > 发现vjudge.neth好像是直接用了uva的oj判题orz
+<!-- TOC -->
+
+- [《算法竞赛入门经典(第二版)》 学习进度记录](#算法竞赛入门经典第二版-学习进度记录)
+    - [[第6章 数据结构基础][1]](#第6章-数据结构基础1)
+        - [**例题6-1**([UVA 210][5])](#例题6-1uva-2105)
+        - [**例题6-2**([uva514][7])](#例题6-2uva5147)
+        - [**例题6-3**([uva442][8])[50min]](#例题6-3uva442850min)
+
+<!-- /TOC -->
+
+----------------------
 
 
-### [第6章 数据结构基础][1]
+## [第6章 数据结构基础][1]
 
 | 类别    | 题号   | 完成状态 | 开始日期  | 完成日期 |
 | ------- | ------ | -------- | --------- | -------- |
-| 例题6-1 | uva210 | skipped        | 2017-9-20 | /        |
-| 例题6-2 | uva514 | in judge queue | 2017-9-21 |2017-9-21|
-| 例题6-3 | uva442 | 
+| 例题6-1 | uva210 | skipped| 2017-9-20 | /        |
+| 例题6-2 | uva514 | ![][2] | 2017-9-21 |2017-9-21|
+| 例题6-3 | uva442 | ![][2] |2017-9-22|2017-9-22|
+
 
 ### **例题6-1**([UVA 210][5])
 
@@ -66,6 +78,17 @@ Yes/No，不同block之间以空行分隔
     else 
         元素入栈
 
+### **例题6-3**([uva442][8])[50min]
+**题目要点：**  
+简单矩阵乘法问题，略   
+emmm...我为什么做了这么久？？？   
+码代码10分钟，debug半小时 (╯‵□′)╯︵┻━┻
+
+**解题思路**  
+比较简单，没啥特殊思路……  
+可能是太久没做题了 实际写算法的时候就有很多细节没注意到
+
+
 
 <!-- ### **例题6-2**([uva514][7])
 **题目要点：**
@@ -81,3 +104,4 @@ Yes/No，不同block之间以空行分隔
 [5]: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=838&page=show_problem&problem=146
 [6]: http://blog.csdn.net/acvay/article/details/43054111
 [7]: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=455
+[8]: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=838&page=show_problem&problem=383
