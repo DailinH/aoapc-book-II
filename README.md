@@ -1,7 +1,7 @@
 # 《算法竞赛入门经典(第二版)》 学习进度记录
 > 所有上传代码均使用Visual Studio 2017编译成功  
-> ~~由于uvaoj等待时间过长，故改用vjudge.net做题~~  
-> 发现vjudge.neth好像是直接用了uva的oj判题orz
+<!-- > ~~由于uvaoj等待时间过长，故改用vjudge.net做题~~  
+> 发现vjudge.net好像是直接用了uva的oj判题orz -->
 <!-- TOC -->
 
 - [《算法竞赛入门经典(第二版)》 学习进度记录](#算法竞赛入门经典第二版-学习进度记录)
@@ -9,6 +9,7 @@
         - [**例题6-1**([UVA 210][5])](#例题6-1uva-2105)
         - [**例题6-2**([uva514][7])](#例题6-2uva5147)
         - [**例题6-3**([uva442][8])[50min]](#例题6-3uva442850min)
+        - [**例题6-4**([uva11988][9])](#例题6-4uva119889)
 
 <!-- /TOC -->
 
@@ -86,13 +87,91 @@ emmm...我为什么做了这么久？？？
 
 **解题思路**  
 比较简单，没啥特殊思路……  
-可能是太久没做题了 实际写算法的时候就有很多细节没注意到
+可能是太久没做题了 实际写算法的时候就有很多细节没注意到  
+
+### **例题6-4**([uva11988][9])
+**题目要点：**  
+利用链表解决  
+
+**解题思路：**  
+- 方法1  
+    0|1|2
+    -|-|-
+    前一个字母的位置|现在所包含的字母|后一个字母的位置  
+    链表并不需要一定用指针完成。  
+    比较关键的部分应该在于模拟指针数组的处理
+
+        if 处理'['  
+            curPos = 0;  
+            虚拟指针移向头部（0 char 1）  
+        else if 处理']'  
+            curPos = seqNum;  
+            虚拟指针移向尾部(seqNum char seqNum+1)  
+        else if 处理正常输入字符  
+            seqNum++  
+            curPos++  
+
+        if 现在位置处于头部(curPos < seqNum)  
+            所有大于curPos的[0][2]项都加1  
+        else if 位置处于尾部  
+            只需添加当前字符  
 
 
+- 方法二  
+想到一种新的做法：  
+刚刚那种做法其实比较累赘.  
+将数组简化成二维:
+0|1
+-|-
+序号|所含字符的原顺序
+然后按照序号排序  
+emmm 先思考一下会不会超时  
+如果用自带的sort 复杂度应该是nlgn  
+100000个字母排序,时间就是10^5..  
+不过挨个读取的话,复杂度是n,这里应该相差不多.  
+伪代码如下:  
 
-<!-- ### **例题6-2**([uva514][7])
-**题目要点：**
-**解题思路**   -->
+        //注意,seqNum所指向的位置应该尚未填充数字
+        if 处理'['  
+            curPos = 0; 
+            先使之前所有的元素顺序++
+        else if 处理']'  
+            //如果之前出现过[ (指针现在位于头部)
+            if curPos != seqNum
+                for i=1:(seqNum-curPos)
+                    sequences[i][0]+=curPos;
+            //将指针移到尾部
+        else if 处理正常输入字符  
+            sequences[seqNum][0] = seqNum;
+            sequences[seqNum][1] = i;
+            seqNum++;
+            curPos++;  
+
+
+嗯，再次成功绕晕自己  
+二维数组排序貌似只能自己写？ 结果写好了以后还是tle了
+QAQ
+
+- 方法三  
+回到指针方法 （参考书中代码）
+顺便膜一发刘教主，代码超美啊
+
+        if '['
+            光标移到首位0
+        else if ']'  
+            光标移到末位last(last为空)
+        else
+            第i位的下一位位当前位的下一位
+            当前为的下一位位第i位（相互关联）
+            if 光标在末尾
+                更新最后一个字符编号
+            更新当前位置编号cur为i
+
+另外需要注意的是头尾相关联的两个指针。这一关系同时也被用作for循环的终止关系，即当“下一个”指向第0个字母的时候，表示整个读取过程都结束了。
+
+<!-- ### **例题6-**([uva][])
+**题目要点：**  
+**解题思路：**   -->
 
 [1]:https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=837
 <!-- AC -->
@@ -105,3 +184,4 @@ emmm...我为什么做了这么久？？？
 [6]: http://blog.csdn.net/acvay/article/details/43054111
 [7]: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=455
 [8]: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=838&page=show_problem&problem=383
+[9]: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=838&page=show_problem&problem=3139
