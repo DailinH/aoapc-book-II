@@ -5,12 +5,13 @@
 <!-- TOC -->
 
 - [《算法竞赛入门经典(第二版)》 学习进度记录](#%E3%80%8A%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E5%85%A5%E9%97%A8%E7%BB%8F%E5%85%B8%E7%AC%AC%E4%BA%8C%E7%89%88%E3%80%8B-%E5%AD%A6%E4%B9%A0%E8%BF%9B%E5%BA%A6%E8%AE%B0%E5%BD%95)
-    - [[第6章 数据结构基础][1]]
-        - [**例题6-1**([UVA 210][5])]
-        - [**例题6-2**([uva514][7])]
-        - [**例题6-3**([uva442][8])[50min]]
-        - [**例题6-4**([uva11988][9])]
-        - [**例题6-5**([uva 12657][10])]
+    - [[第6章 数据结构基础][1]](#%E7%AC%AC6%E7%AB%A0-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%9F%BA%E7%A1%801)
+        - [**例题6-1**([UVA 210][5])](#%E4%BE%8B%E9%A2%986-1uva-2105)
+        - [**例题6-2**([uva514][7])](#%E4%BE%8B%E9%A2%986-2uva5147)
+        - [**例题6-3**([uva442][8])[50min]](#%E4%BE%8B%E9%A2%986-3uva442850min)
+        - [**例题6-4**([uva11988][9])](#%E4%BE%8B%E9%A2%986-4uva119889)
+        - [**例题6-5**([uva 12657][10])](#%E4%BE%8B%E9%A2%986-5uva-1265710)
+        - [**例题6-6**([uva679][11])](#%E4%BE%8B%E9%A2%986-6uva67911)
 
 <!-- /TOC -->
 
@@ -26,6 +27,7 @@
 | 例题6-3 | uva442 | ![][2] |2017-9-22|2017-9-22|
 | 例题6-4 | uva11988 | ![][2] |2017-9-22|2017-9-22|
 | 例题6-5 | uva12657 | ![][2] |2017-9-23|2017-9-23|
+| 例题6-6 | uva679 | ![][2] |2017-9-23|2017-9-24|
 
 
 ### **例题6-1**([UVA 210][5])
@@ -308,6 +310,23 @@ original| 1 2 3 4 5 6 7 8 |1 2 4 3 5 6 7 8
 经过debug找到错误，发现是在判断inv使cmds=3-cmds的时候，漏掉了判断cmds！=3  
 终于AC了orz
 
+### **例题6-6**([uva679][11])
+**题目要点：**  
+虽然题目是树结构，但是如果用数组模拟遍历的方法来做显然非常耗时。  
+这里考虑采用数学方法进行解题尝试  
+**解题思路：**  
+对于落到某k点上的第I个小球  
+
+    if I为奇数
+        I向左走
+        落到第k*2个小球上
+        I=(I+1)/2
+    else if I为偶数
+        I向右走
+        落到第k*2+1个小球上
+        
+第一次的时候tle了， 检查发现多次输入命令的循环在break处顺序出现了错误，导致无法正常多次读入命令和执行。  
+更改后AC。  
 
 <!-- ### **例题6-**([uva][])
 **题目要点：**  
@@ -326,3 +345,4 @@ original| 1 2 3 4 5 6 7 8 |1 2 4 3 5 6 7 8
 [8]: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=838&page=show_problem&problem=383
 [9]: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=838&page=show_problem&problem=3139
 [10]:https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=838&page=show_problem&problem=4395
+[11]:https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=838&page=show_problem&problem=620
