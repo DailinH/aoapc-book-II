@@ -12,6 +12,7 @@
         - [**例题6-4**([uva11988][9])](#%E4%BE%8B%E9%A2%986-4uva119889)
         - [**例题6-5**([uva 12657][10])](#%E4%BE%8B%E9%A2%986-5uva-1265710)
         - [**例题6-6**([uva679][11])](#%E4%BE%8B%E9%A2%986-6uva67911)
+        - [**例题6-7**([uva122][12])](#%E4%BE%8B%E9%A2%986-7uva12212)
 
 <!-- /TOC -->
 
@@ -328,6 +329,17 @@ original| 1 2 3 4 5 6 7 8 |1 2 4 3 5 6 7 8
 第一次的时候tle了， 检查发现多次输入命令的循环在break处顺序出现了错误，导致无法正常多次读入命令和执行。  
 更改后AC。  
 
+
+### **例题6-7**([uva122][12])
+**题目要点：**  
+大概就是单纯地填充树就行了？  
+趁机练一下树的指针结构orz  
+
+**解题思路：**  
+写一个node类，利用指针动态构造树结构。  
+strchr函数(见[https://baike.baidu.com/item/strchr/10985184?fr=aladdin][13] )
+
+
 <!-- ### **例题6-**([uva][])
 **题目要点：**  
 **解题思路：**   -->
@@ -346,3 +358,5 @@ original| 1 2 3 4 5 6 7 8 |1 2 4 3 5 6 7 8
 [9]: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=838&page=show_problem&problem=3139
 [10]:https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=838&page=show_problem&problem=4395
 [11]:https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=838&page=show_problem&problem=620
+[12]:https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=838&page=show_problem&problem=58
+[13]:https://baike.baidu.com/item/strchr/10985184?fr=aladdin;
