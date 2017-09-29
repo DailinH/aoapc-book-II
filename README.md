@@ -13,6 +13,7 @@
         - [**例题6-5**([uva 12657][10])](#%E4%BE%8B%E9%A2%986-5uva-1265710)
         - [**例题6-6**([uva679][11])](#%E4%BE%8B%E9%A2%986-6uva67911)
         - [**例题6-7**([uva122][12])](#%E4%BE%8B%E9%A2%986-7uva12212)
+        - [**例题6-8**([uva548][14])](#%E4%BE%8B%E9%A2%986-8uva54814)
 
 <!-- /TOC -->
 
@@ -29,6 +30,9 @@
 | 例题6-4 | uva11988 | ![][2] |2017-9-22|2017-9-22|
 | 例题6-5 | uva12657 | ![][2] |2017-9-23|2017-9-23|
 | 例题6-6 | uva679 | ![][2] |2017-9-23|2017-9-24|
+| 例题6-7 | uva122 | skipped | | |
+| 例题6-8 | uva548 | ![][2] |2017-9-29|2017-9-29|
+
 
 
 ### **例题6-1**([UVA 210][5])
@@ -339,6 +343,16 @@ original| 1 2 3 4 5 6 7 8 |1 2 4 3 5 6 7 8
 写一个node类，利用指针动态构造树结构。  
 strchr函数(见[https://baike.baidu.com/item/strchr/10985184?fr=aladdin][13] )
 
+### **例题6-8**([uva548][14])
+**题目要点：**  
+难度不大，主要是考察bfs吧
+
+**解题思路：**  
+出了个错反复查了半天orz  
+最后发现其实应该是bfs在初始化的时候赋sum出错了  
+尴尬  
+
+
 
 <!-- ### **例题6-**([uva][])
 **题目要点：**  
@@ -360,3 +374,4 @@ strchr函数(见[https://baike.baidu.com/item/strchr/10985184?fr=aladdin][13] )
 [11]:https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=838&page=show_problem&problem=620
 [12]:https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=838&page=show_problem&problem=58
 [13]:https://baike.baidu.com/item/strchr/10985184?fr=aladdin;
+[14]:https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=489
