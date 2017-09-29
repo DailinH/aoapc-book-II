@@ -14,6 +14,7 @@
         - [**例题6-6**([uva679][11])](#%E4%BE%8B%E9%A2%986-6uva67911)
         - [**例题6-7**([uva122][12])](#%E4%BE%8B%E9%A2%986-7uva12212)
         - [**例题6-8**([uva548][14])](#%E4%BE%8B%E9%A2%986-8uva54814)
+        - [**例题6-10**([uva839][15])](#%E4%BE%8B%E9%A2%986-10uva83915)
 
 <!-- /TOC -->
 
@@ -32,6 +33,7 @@
 | 例题6-6 | uva679 | ![][2] |2017-9-23|2017-9-24|
 | 例题6-7 | uva122 | skipped | | |
 | 例题6-8 | uva548 | ![][2] |2017-9-29|2017-9-29|
+| 例题6-9 | uva839 | ![][2] |2017-9-29|2017-9-29|
 
 
 
@@ -352,6 +354,19 @@ strchr函数(见[https://baike.baidu.com/item/strchr/10985184?fr=aladdin][13] )
 最后发现其实应该是bfs在初始化的时候赋sum出错了  
 尴尬  
 
+### **例题6-10**([uva839][15])
+**题目要点：**  
+本质仍然是二叉树，由于永远优先处理左枝，所以用bfs进行处理即可。
+
+**解题思路：**  
+在解题的时候忘记把分支的重量计入总重量了，当然WA……  
+改过这个错以后就AC了  
+而且当时看了好几遍都没看出来咋回事儿  
+心路历程如下：  
+
+    --“这次再不ac我就是狗”
+    5秒后
+    --”汪汪汪”
 
 
 <!-- ### **例题6-**([uva][])
@@ -375,3 +390,4 @@ strchr函数(见[https://baike.baidu.com/item/strchr/10985184?fr=aladdin][13] )
 [12]:https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=838&page=show_problem&problem=58
 [13]:https://baike.baidu.com/item/strchr/10985184?fr=aladdin;
 [14]:https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=489
+[15]:https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=780
