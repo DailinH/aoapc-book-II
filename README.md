@@ -1,6 +1,8 @@
 # **《算法竞赛入门经典(第二版)》 学习进度记录**
 > 所有上传代码均使用Visual Studio 2017编译成功  
 
+
+
 [TOC]
 
 ----------------------
@@ -31,9 +33,13 @@ uvaoj直接挂掉了了，可以说是非常气人了
 
 这样一来就只好先看看书，自己想一想怎么实现，再对比一下别人怎么实现的了
 
-暂时就没法更新这个repo了T_T 总觉得半路弃坑很难过
+暂时就没法更新这个repo了，只能在blog上乱写乱画
 
-![20171007_1](G:\01 《算法竞赛入门经典（第二版）》\aoapc-book-II\20171007_1.jpg)
+T_T 总觉得半路弃坑很难过
+
+//感觉typora的toc有点问题？
+
+![](./20171007_1.jpg)
 
 
 
@@ -43,24 +49,9 @@ uvaoj直接挂掉了了，可以说是非常气人了
 
 
 
-[1]:https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=837
-<!-- AC -->
+
 [2]: https://img.shields.io/badge/AC-%E2%88%9A-brightgreen.svg
 <!-- WA -->
 [3]: https://img.shields.io/badge/WA-%C3%97-red.svg
 <!-- TLE -->
 [4]: https://img.shields.io/badge/TLE----yellow.svg
-[5]: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=838&amp;page=show_problem&amp;problem=146
-[6]: http://blog.csdn.net/acvay/article/details/43054111
-[7]: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=455
-[8]: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=838&amp;page=show_problem&amp;problem=383
-[9]: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=838&amp;page=show_problem&amp;problem=3139
-[10]:https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=838&amp;page=show_problem&amp;problem=4395
-[11]:https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=838&amp;page=show_problem&amp;problem=620
-[12]:https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=838&amp;page=show_problem&amp;problem=58
-[13]:https://baike.baidu.com/item/strchr/10985184?fr=aladdin;
-[14]:https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=489
-[15]:https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=780
-[16]:https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=640
-[17]:https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=838&amp;page=show_problem&amp;problem=233
-[18]: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;category=838&amp;problem=513&amp;mosmsg=Submission+received+with+ID+20106876
