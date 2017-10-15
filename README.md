@@ -27,7 +27,7 @@
 
 
 
-2017-10-7 记
+**2017-10-7 记**
 
 uvaoj直接挂掉了了，可以说是非常气人了
 
@@ -39,13 +39,27 @@ T_T 总觉得半路弃坑很难过
 
 //感觉typora的toc有点问题？
 
-![](./20171007_1.jpg)
-
-
-
 ---------------------
 
 ## **第7章 暴力求解法**
+
+| 类别    | 题号                                       | 完成状态   | 开始日期       | 完成日期       | 计时        |
+| ----- | ---------------------------------------- | ------ | ---------- | ---------- | --------- |
+| 例题7-1 | [UVA 725](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=841&problem=666&mosmsg=Submission+received+with+ID+20180790) | ![][2] | 2017-10-9  | 2017-10-15 | --        |
+| 例题7-2 | [UVA 11059](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=841&page=show_problem&problem=2000) | ![][2] | 2017-10-15 | 2017-10-15 | 10'28''44 |
+| 例题7-3 | [UVA 10976](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=841&page=show_problem&problem=1917) | ![][2] | 2017-10-15 | 2017-10-15 | 13'14''41 |
+|       |                                          |        |            |            |           |
+|       |                                          |        |            |            |           |
+|       |                                          |        |            |            |           |
+|       |                                          |        |            |            |           |
+|       |                                          |        |            |            |           |
+|       |                                          |        |            |            |           |
+|       |                                          |        |            |            |           |
+|       |                                          |        |            |            |           |
+|       |                                          |        |            |            |           |
+|       |                                          |        |            |            |           |
+|       |                                          |        |            |            |           |
+|       |                                          |        |            |            |           |
 
 
 
