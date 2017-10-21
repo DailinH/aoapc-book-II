@@ -48,11 +48,11 @@ T_T 总觉得半路弃坑很难过
 | 例题7-1 | [UVA 725](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=841&problem=666&mosmsg=Submission+received+with+ID+20180790) | ![][2] | 2017-10-9  | 2017-10-15 | --        |
 | 例题7-2 | [UVA 11059](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=841&page=show_problem&problem=2000) | ![][2] | 2017-10-15 | 2017-10-15 | 10'28''44 |
 | 例题7-3 | [UVA 10976](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=841&page=show_problem&problem=1917) | ![][2] | 2017-10-15 | 2017-10-15 | 13'14''41 |
-|       |                                          |        |            |            |           |
-|       |                                          |        |            |            |           |
-|       |                                          |        |            |            |           |
-|       |                                          |        |            |            |           |
-|       |                                          |        |            |            |           |
+| 例题7-4 | [UVA 524](./https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=841&problem=465&mosmsg=Submission+received+with+ID+20192987) | ![][2] | 2017-10-17 | 2017-10-17 | 28'38''86 |
+| 例题7-5 | [UVA 129](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=65) | ![][3] | 2017-10-19 |            |           |
+| 例题7-6 | [uva 140](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=841&problem=76&mosmsg=Submission+received+with+ID+20215872) | ![][2] | 2017-10-21 | 2017-10-21 | 46‘54’‘23 |
+| 例题7-7 |                                          |        |            |            |           |
+| 例题7-8 | [UVA 10603](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=841&problem=1544&mosmsg=Submission+received+with+ID+20216469) | ![][3] | 2017-10-21 | 2017-10-21 | 36'38''18 |
 |       |                                          |        |            |            |           |
 |       |                                          |        |            |            |           |
 |       |                                          |        |            |            |           |
