@@ -75,8 +75,37 @@ T_T 总觉得半路弃坑很难过
 
 
 
+---------------------------------------
+
+## 第八章 高效算法设计
+
+| 类别    | 题号                                       | 完成状态   | 开始日期       | 完成日期       | 计时        |
+| ----- | ---------------------------------------- | ------ | ---------- | ---------- | --------- |
+| 例题8-1 | [UVA 120](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=56) | ![][2] | 2017/10/23 | 2017/10/23 | 54'00''76 |
+| 例题8-2 | [UVA 1605 ](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=844&page=show_problem&problem=4480) | ![][2] | 2017/10/23 | 2017/10/23 | ----      |
+| 例题8-3 | [UVA 1152 ](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=844&page=show_problem&problem=3593) | ![][4] | 2017/10/23 | 2017/10/23 | ----      |
+| 例题8-4 |                                          |        |            |            |           |
+| 例题8-5 | [UVA 11054 ](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=844&page=show_problem&problem=1995) | ![][2] | 2017/10/23 | 2017/10/23 | 3'29''11  |
+| 例题8-6 |                                          |        |            |            |           |
+|       |                                          |        |            |            |           |
+|       |                                          |        |            |            |           |
+|       |                                          |        |            |            |           |
 
 
+> ``例题8-1`` (2017-10-23)  
+> 第一次用g++调试 T_T  用时巨长无比  
+> 打断点什么的 好困难啊    
+
+> ``例题8-2`` (2017-10-23)  
+> 感觉这题完全难在思路广啊……  
+> 让我自己想也很难想到这种方法的说   
+>
+> 甚至还WA了QAQ  
+> 错误原因在于ASCII码内，AB...Z和ab...z之间不是完全相联的  
+> emmm……
+
+> ``例题8-3`` (2017-10-23)  
+> 第一次TLE了，对A，B，C分别进行遍历，然后二分搜索。由此得到的时间复杂度为$O(n^3log_2n)$ ,超时；
 
 
 [2]: https://img.shields.io/badge/AC-%E2%88%9A-brightgreen.svg
